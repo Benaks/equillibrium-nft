@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(217, 54%, 11%) ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+h3{
+    color:hsl(0, 0%, 100%) ; 
+    font-weight: 600;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+ h3:hover{
+    color:  hsl(178, 100%, 50%);
+
+}
+p{
+    color:hsl(215, 51%, 70%) ;
+    font-size: 17px;
+    padding-bottom: 20px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.image img{
+    width: 250px;
+    border-radius: 10px;
+}
+.image img:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.price{
+    display: flex;
+    border-bottom-style: ridge ;
+    border-width: 1px;
+    border-color:hsl(215, 32%, 27%) ;
+    padding-bottom: 10px;
+    
+}
+
+.price p{
+    padding-left: 70px;
+    padding-bottom:0px;
+    font-size: 15px;
+    
+    flex-direction: row;
+
+}
+
+.price h3{
+    color:  hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 5px;
+}
+.price h3 img{
+    width: 14px;
+}
+.price p img{
+    width:20px;
+}
+.price img{
+    padding-right: 5px;
+    border-top: 10px;
+    width: 17px;
+}
+
+.creator{
+    display: flex;
+    margin-bottom: 4px hsl(215, 32%, 27%);
+    padding-top: 10px;
+    flex-direction: row;
+}
+.creator .image{
+    background-color:hsl(0, 0%, 100%) ; 
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.creator img{
+    width: 30px;
+    padding: 1px;
+}
+.creator p{
+    padding-left: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.creator p span{
+    font-weight: 300;
+    color: hsl(0, 0%, 100%);
+    padding-left: 5px;
+}
+.creator p span:hover{
+    color:  hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.attribution { font-size: 11px; text-align: center;  margin-top: 50px;  color: antiquewhite;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+@media(max-width:375px){
+    .container{
+        
+    }
+
+}
